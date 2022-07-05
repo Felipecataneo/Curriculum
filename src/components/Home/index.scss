@@ -1,0 +1,65 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 90%;
+    max-height: 90%;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 5.6rem;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    @media screen and (max-width: 500px) {
+      font-size: 3rem;
+    }
+  }
+  h2 {
+    color: #fff;
+    font-size: 4rem;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    @media screen and (max-width: 500px) {
+      font-size: 2.6rem;
+    }
+  }
+  h3 {
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: sans-serif;
+    letter-spacing: 0.3rem;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    color: #ffd700;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 0.5rem 0.6rem;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    float: left;
+    animation: fadeInAnimation 1s 1.8s backwards;
+    white-space: nowrap;
+    @media screen and (max-width: 500px) {
+      font-size: 1.1rem;
+    }
+
+    &:hover {
+      background: #ffd700;
+      color: #333;
+    }
+  }
+}
